@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
+
+/*  https://coolors.co/000000-3d2645-832161-da4167-f0eff4  */
+
+:root {
+  --color-bg: #f0eff4;
+  --color-cta: #da4167;
+  --color-secondary: #832161;
+  --color-primary: #3d2645;
+  --color-body: #000000;
+
+  --color-body-shade: #c6c2d6;
+  --color-sec-shade: #f3cee6;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: var(--color-bg);
+}
