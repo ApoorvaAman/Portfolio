@@ -12,14 +12,10 @@ module.exports = {
       card: 'var(--color-sec-shade)',
     },
     fontFamily: {
-      sans: ['Dosis', 'sans-serif'],
-      serif: ['Playfair Display', 'serif'],
+      geo: ['Georama', 'sans-serif'],
+      ubuntu: ['Ubuntu', 'sans-serif'],
     },
-    extend: {
-      zIndex: {
-        '-1': '-1',
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},
