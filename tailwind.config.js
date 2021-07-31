@@ -14,6 +14,7 @@ module.exports = {
     fontFamily: {
       geo: ['Georama', 'sans-serif'],
       ubuntu: ['Ubuntu', 'sans-serif'],
+      sans: ['Source Sans Pro', 'sans-serif'],
     },
     extend: {},
   },
