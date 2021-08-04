@@ -8,19 +8,22 @@ const Projects = (): JSX.Element => {
       </h3>
       <div className='mt-9 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5'>
         <Card
-          title={'Discord Bot'}
-          desc={'A bot for server moderation'}
-          tags={['NodeJS', 'TypeScript']}
+          title={'Artemis'}
+          desc={'A discord bot for server moderation'}
+          tags={['NodeJS', 'TypeScript', 'Discord.JS']}
+          github={'https://github.com/ApoorvaAman/Artemis'}
         />
         <Card
           title={'Task Manager'}
-          desc={'Web app for managing daily tasks'}
+          desc={'Simple web app for managing daily tasks'}
           tags={['HTML', 'CSS', 'React', 'TypeScript', 'Create-React-App']}
+          github={'https://github.com/ApoorvaAman/Task-Manager'}
+          link={'http://royal-seashore.surge.sh/'}
         />
         <Card
           title={'Weather App'}
           desc={
-            'Display weather using unoffical GraphQL wrapper for OpenWeather API'
+            'Display current weather using unoffical GraphQL wrapper for OpenWeather API'
           }
           tags={[
             'HTML',
@@ -31,6 +34,8 @@ const Projects = (): JSX.Element => {
             'Apollo Client',
             'Create-React-App',
           ]}
+          github={'https://github.com/ApoorvaAman/Weather-App'}
+          link={'https://weather-graphql-react.netlify.app/'}
         />
       </div>
     </section>
