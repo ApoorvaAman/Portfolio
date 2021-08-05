@@ -23,7 +23,10 @@ const Card = ({ title, desc, tags, github, link }: CardInfo): JSX.Element => {
               </a>
             ) : null}
             <a href={github} target='_blank' rel='noopener noreferrer'>
-              <FontAwesomeIcon className='text-xl' icon={faGithub} />
+              <FontAwesomeIcon
+                className='text-xl hover:text-github'
+                icon={faGithub}
+              />
             </a>
           </div>
         </div>
