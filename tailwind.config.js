@@ -10,6 +10,10 @@ module.exports = {
       cta: 'var(--color-cta)',
       background: 'var(--color-bg)',
       card: 'var(--color-sec-shade)',
+      twitter: '#1da1f2',
+      linkedin: '#0077b5',
+      github: '#333',
+      white: '#fff',
     },
     fontFamily: {
       geo: ['Georama', 'sans-serif'],
